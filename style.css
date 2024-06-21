@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('photorealistic-style-clouds_23-2151058968.jpg'); 
+    
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-app {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(132, 104, 145, 0.2) -15px 15px, rgba(110, 134, 139, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#cityInput {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0288d1;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
+
+#weatherResult h2 {
+    margin: 0;
+}
+
+#weatherResult p {
+    margin: 5px 0;
+    font-size: 20px;
+}
